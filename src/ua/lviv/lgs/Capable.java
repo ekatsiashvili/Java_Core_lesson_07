@@ -8,3 +8,8 @@ public interface Capable {
 
 	void NuclearStrike();
 }
+
+
+
+
+//lesson_07

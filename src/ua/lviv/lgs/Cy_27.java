@@ -36,7 +36,7 @@ public class Cy_27 extends Plane implements Capable {
 	public void TurboAcceleration() {
 		double minTurboS = this.maxSpeed;
 
-		double randomTurboS = minTurboS + minTurboS*Math.random();
+		double randomTurboS = minTurboS + minTurboS * Math.random();
 
 		System.out.println("Turbo acceleration now (km/h):");
 		System.out.printf("%.2f %n", randomTurboS);
@@ -61,3 +61,4 @@ public class Cy_27 extends Plane implements Capable {
 	}
 
 }
+//lesson_07
