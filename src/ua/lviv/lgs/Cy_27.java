@@ -7,7 +7,7 @@ public class Cy_27 extends Plane implements Capable {
 	private Airplane—ontrol AC_Cy_27 = new Airplane—ontrol();
 
 	public Cy_27(int length, int width, int weight, double maxSpeed, String color) {
-		super(length, width, weight);
+		super();
 		this.maxSpeed = maxSpeed;
 		this.color = color;
 	}
@@ -17,19 +17,27 @@ public class Cy_27 extends Plane implements Capable {
 	}
 
 	public void MoveUp() {
-		Airplane—ontrol.mUp();
+		int distance = (int) (Math.random() * 10000);
+		System.out.println(
+				"\n" + "Plane is moving up on " + distance + " km" + "\n" + "___________________________________");
 	}
 
 	public void MoveDown() {
-		Airplane—ontrol.mDown();
+		int distance = (int) (Math.random() * 10000);
+		System.out.println(
+				"\n" + "Plane is moving down on " + distance + " km" + "\n" + "___________________________________");
 	}
 
 	public void MoveLeft() {
-		Airplane—ontrol.mLeft();
+		int distance = (int) (Math.random() * 10000);
+		System.out.println(
+				"\n" + "Plane is moving left on " + distance + " km" + "\n" + "___________________________________");
 	}
 
 	public void MoveRight() {
-		Airplane—ontrol.mRight();
+		int distance = (int) (Math.random() * 10000);
+		System.out.println(
+				"\n" + "Plane is moving right on " + distance + " km" + "\n" + "___________________________________");
 	}
 
 	@Override

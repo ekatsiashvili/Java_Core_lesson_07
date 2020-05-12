@@ -5,13 +5,6 @@ public abstract class Plane {
 	int width;
 	int weight;
 
-	public Plane(int length, int width, int weight) {
-		super();
-		this.length = length;
-		this.width = width;
-		this.weight = weight;
-	}
-
 	void engineStarting() {
 		int min = 20;
 		int max = 88;
@@ -30,4 +23,3 @@ public abstract class Plane {
 	}
 
 }
-//lesson_07
